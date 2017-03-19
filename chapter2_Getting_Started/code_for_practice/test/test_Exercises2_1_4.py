@@ -10,3 +10,4 @@ class Exercises2_1_4(TestCaseWithTime):
         result2 = [0, 1, 1, 1, 1, 0]
         self.assertEquals(add_binary(a_list, b_list), result1)
         self.assertEquals(add_binary(b_list, b_list), result2)
+        self.assertEquals(add_binary(b_list, result1), None)
