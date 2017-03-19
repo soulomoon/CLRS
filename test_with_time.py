@@ -9,6 +9,7 @@ class TestCaseWithTime(TestCase):
 
     def tearDown(self):
         t = time.time() - self.start_time
-        class_name = self.id().split('.')[-2]
-        method_name = self.id().split('.')[-1]
-        print("%s: %fms." % (class_name+"."+method_name, t))
+        # class_name = self.id().split('.')[-2]
+        # method_name = self.id().split('.')[-1]
+        # print("%s: %fms." % (class_name+"."+method_name, t))
+        print("%s: %fms." % (self.id(), t))

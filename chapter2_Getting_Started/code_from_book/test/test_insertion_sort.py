@@ -1,4 +1,4 @@
-from . import TestCaseWithTime
+from test_with_time import TestCaseWithTime
 
 from chapter2_Getting_Started.code_from_book.insertion_sort import *
 
