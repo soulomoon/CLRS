@@ -6,5 +6,6 @@ I use python, because the syntax is very similiar to the book
 Pycharm  
 # OPERATION SYSTEM  
 macOS Sierra  
-# test  
-Python's unittest Module. [more choices here](http://docs.python-guide.org/en/latest/writing/tests/)
+# Test  
+Python's unittest Module. [more choices here](http://docs.python-guide.org/en/latest/writing/tests/)  
+Benchmark for time. [look here](http://stackoverflow.com/questions/9502516/how-to-know-time-spent-on-each-test-when-using-unittest)  
