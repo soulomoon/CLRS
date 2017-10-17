@@ -1,9 +1,12 @@
+"""Test"""
 from test_with_time import TestCaseWithTime
-from chapter2_Getting_Started.code_for_practice.Exercises2_1_4 import *
+from chapter2_Getting_Started.exercise.ex2_1_4 import add_binary
 
 
-class Exercises2_1_4(TestCaseWithTime):
+class Test(TestCaseWithTime):
+    """Test"""
     def test_add_binary(self):
+        """test_add_binary"""
         a_list = [1, 0, 1, 1, 0]
         b_list = [0, 1, 1, 1, 1]
         result1 = [1, 0, 0, 1, 0, 1]
